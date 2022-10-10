@@ -1,0 +1,52 @@
+[
+    {
+        "question":"Which of the following isn't a type of loop ?",
+        "options":{
+            "A":"for",
+            "B":"while",
+            "C":"do-while",
+            "D":"till"
+        },
+        "correct":"D"
+    },
+    {
+        "question":"What keyword is used to get out of a running loop before it stops ?",
+        "options":{
+            "A":"stop",
+            "B":"break",
+            "C":"out",
+            "D":"continue"
+        },
+        "correct":"B"
+    },
+    {
+        "question":"JavaScript is an _______ language.",
+        "options":{
+            "A":"Object Oriented",
+            "B":"Proceedural",
+            "C":"Functional",
+            "D":"None of the Above"
+        },
+        "correct":"A"
+    },
+    {
+        "question":"Which of the following is used to declare a variable in JavaScript ?",
+        "options":{
+            "A":"var",
+            "B":"let",
+            "C":"both A and B",
+            "D":"None of the Above"
+        },
+        "correct":"C"
+    },
+    {
+        "question":"which of these is an ansychronous function in JavaScript ?",
+        "options":{
+            "A":"Sleep()",
+            "B":"SetTimeout()",
+            "C":"Time()",
+            "D":"Window()"
+        },
+        "correct":"B"
+    }
+]

@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    background-color: #100720;
+}
+h1{
+    margin:0;
+    color:#FA2FB5;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* top container css*/
+.top-container{
+    padding:0.5rem;
+    margin:auto;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 10vh;
+}
+.top-element{
+    width: 20vw; 
+}
+.primary-text{
+    font-size: 13px;
+    color:#FA2FB5;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: inherit;
+    color:inherit;
+    font-family: inherit;
+}
+
+/* main container css */
+.main-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.container{
+    width: 80vw;
+    height: fit-content;
+    padding:1rem;
+    border: 2px solid #FFC23C;
+    border-radius: 4%;
+    background-color: #31087B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color:#FFC23C;
+}
+
+ #question-container{
+    display: none;
+ }
+
+ #game-over{
+    display: none;
+ }
+ #game-over>.next-btn{
+    width: 20vw;
+ }
+ #game-over>input{
+    display: block;
+ }
+
+ #highscores{
+    display: none;
+    height: fit-content;
+ }
+
+
+
+/*Questions Card */
+
+.question{
+    margin:0.2rem;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    margin: 0.2rem;
+    border: 1px solid #FFC23C;
+    padding:0.3rem;
+    border-radius:30px;
+    font-size: 1rem;
+    color:#FFC23C;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.next-btn{
+    width:30vw;
+    margin: 1rem auto;
+    font-size: 20px;
+    background-color: #FA2FB5;
+    color:#FFC23C;
+    font-weight: 1000;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.selected{
+    background-color: rgba(255, 235, 205, 0.95);
+    border: 1px solid goldenrod;
+    color:goldenrod
+}
+
+.correct{
+    background-color: lightgreen;
+    border: 1px solid green;
+    color:green;
+}
+
+.wrong{
+    background-color: lightcoral;
+    border:1px solid crimson;
+    color:crimson;
+}
+
+/* table styles */
+
+tr{
+   padding:1rem !important;
+}
+td,th{
+    padding:0.7rem !important;
+    border: 1px solid #FFC23C;
+}
+
+
+/* media queries */
+@media screen and (max-width:756px) {
+    .questions-container{
+        height: 70% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
